@@ -1,0 +1,344 @@
+
+/*整体样式*/
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #100116;
+    background-image: url(../img/bg_105_wrap3.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    font: normal 80% Verdana;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    min-width: 375px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+body span {
+    white-space: nowrap;
+}
+
+.h1 {
+    width: 30%;
+    max-width: 520px;
+    min-width: 113px;
+    color: #000;
+    font-size: 32px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.h2 {
+    width: 100%;
+    max-width: 1320px;
+    min-width: 259px;
+    color: #000;
+    font-size: 24px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.h3 {
+    width: 60%;
+    max-width: 600px;
+    min-width: 113px;
+    color: #000;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.ndv {
+    float: left;
+    text-align: center;
+}
+
+.ndv1 {
+    float: left;
+    text-align: center;
+    min-font-size: 10px;
+}
+
+.ndv2 {
+    float: left;
+    text-align: center;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: block;
+    height: 0;
+    line-height: 0px;
+    clear: both;
+    visibility: hidden;
+}
+
+.bgimg {
+    width: 100%;
+    max-width: 800px;
+    min-width: 375px;
+    max-height: 450px;
+    min-height: 210px;
+    margin: 60px auto;
+}
+
+.bgimg > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.spaner {
+    width: 70%;
+    max-width: 800px;
+    min-width: 150px;
+    margin: 60px auto;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+/*环绕鼠标文字样式*/
+    /* Circle Text Styles */
+#outerCircleText {
+    /* Optional - DO NOT SET FONT-SIZE HERE, SET IT IN THE SCRIPT */
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'comic sans ms', verdana, arial;
+    color: #fd80cb;
+    /* End Optional */
+    /* Start Required - Do Not Edit */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3000;
+    cursor: default;
+}
+
+#outerCircleText div {
+    position: relative;
+}
+
+#outerCircleText div div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+/* End Required */
+/* End Circle Text Styles */
+
+
+/*轮播图样式*/
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#dv {
+    width: 90%;
+    max-width: 800px;
+    min-width: 337px;
+    max-height: 600px;
+    min-height: 252px;
+    border: 5px solid rgba(206, 191, 191, 0.3);
+    margin: 0 auto;
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+#dv #myul {
+    width: 610%;
+    position: absolute;
+}
+
+#dv #myul li {
+    width: 16.6667%;
+    float: left;
+}
+
+#myul li img {
+    width: 100%;
+}
+
+#dv ol {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+#dv ol li {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background-color: rgba(0, 0, 0, .3);
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+#dv ol .current {
+    background: rgba(243, 27, 12, .3);
+}
+
+#left {
+    width: 40px;
+    height: 80px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .2);
+    font: normal bold 40px/80px '微软雅黑';
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    color: rgba(251, 247, 247, .7);
+    display: none;
+    z-index: 20;
+
+}
+
+#right {
+    width: 40px;
+    height: 80px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .2);
+    font: normal bold 40px/80px '微软雅黑';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    color: rgba(251, 247, 247, .7);
+    display: none;
+    z-index: 20;
+}
+
+#myul img {
+    opacity: .8;
+}
+
+/*footer*/
+.footer {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    margin: 50px 0 150px 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer p {
+    height: 25px;
+    line-height: 25px;
+    color: #777777;
+}
+
+.hr {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #E5E5E5;
+}
+
+
+/*请自行放置音频文件*/
+
+
+.myaudio {
+    width: 100%;
+    height: 60px;
+    background-color: #DCC7FF;
+    position: fixed;
+    bottom: 0;
+    z-index: 50;
+}
+
+.myaudio > .myaudio-center {
+    max-width: 500px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0
+}
+
+.myaudio > .myaudio-center > .aud-btn {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 5px;
+    left: 10px
+}
+
+.myaudio > .myaudio-center > .aud-btn > img {
+    height: 100%;
+    width: 100%;
+}
+
+.myaudio > .myaudio-center > .aud-show {
+    height: 100%;
+    position: absolute;
+    left: 65px;
+}
+
+.myaudio > .myaudio-center > .aud-show > #Progress-time, .myaudio > .myaudio-center > .aud-show > #Progress-end {
+    width: 40px;
+    height: 100%;
+    font-size: 13px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.myaudio > .myaudio-center > .aud-show > #Progress-time {
+    position: absolute;
+    left: 0;
+}
+
+.myaudio > .myaudio-center > .aud-show > #Progress {
+    position: absolute;
+    left: 50px;
+    top: 28px;
+    height: 6px;
+    background: #8FB3D2
+}
+
+.myaudio > .myaudio-center > .aud-show > #Progress-end {
+    position: absolute;
+    right: 0;
+}
+
+.myaudio > .myaudio-center > .aud-show > #Progress > #jin {
+    width: 6px;
+    height: 6px;
+    background-color: blue;
+    position: absolute;
+    left: 0px;;
+}
+
+.myaudio > .myaudio-center > .aud-show > #Progress > #yuan {
+    width: 9px;
+    height: 9px;
+    background-color: #fff;
+    border: 1px solid #8FB3D2;
+    border-radius: 6px;
+    position: absolute;
+    left: -3px;
+    top: -2px;
+}
+
