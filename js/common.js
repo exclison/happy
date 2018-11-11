@@ -550,7 +550,7 @@ window.onload = function () {
                 },
                 options			= $.extend({}, defaults, options);
 
-            console.log(documentHeight);
+            
 
             var interval		= setInterval( function(){
                 var startPositionLeft 	= Math.random() * documentWidth - 100,
@@ -559,7 +559,7 @@ window.onload = function () {
                     endPositionTop		= documentHeight + 100,
                     endPositionLeft		= startPositionLeft - 100 + Math.random() * 500,
                     durationFall		= documentHeight * 10 + Math.random() * 5000;
-                console.log(endPositionTop);
+                
                 $flake.clone().appendTo('body').css({
                     left: startPositionLeft,
                     opacity: startOpacity,
