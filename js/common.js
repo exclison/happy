@@ -145,8 +145,8 @@ window.onload = function () {
             aud_play();
         })
     }
-
-
+    
+    document.body.style.visibility = 'visible';
 
     //主体js代码
 
