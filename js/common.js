@@ -146,7 +146,7 @@ window.onload = function () {
         })
     }
 
-
+    document.body.style.visibility = 'visible';
 
     //主体js代码
 
